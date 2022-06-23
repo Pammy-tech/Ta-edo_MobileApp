@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TanedoMobileApp.Home_Page"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid BackgroundColor="White">
+
+        <StackLayout>
+            <Label Text="ASPECT"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               FontSize="40"
+               Margin="15"
+               FontAttributes="Bold,Italic"></Label>
+
+            <Frame Padding="0"
+               HasShadow="True"
+               CornerRadius="5"
+               Margin="2"
+               VerticalOptions="Start">
+                <Grid>
+                    <Image Source="http://cdn.onlinewebfonts.com/svg/img_24787.png" Aspect="AspectFill"></Image>
+                </Grid>
+            </Frame>
+
+            <StackLayout>
+                <Frame Padding="0"
+               HasShadow="True"
+               CornerRadius="5"
+               Margin="2"
+               VerticalOptions="FillAndExpand">
+                    <Grid>
+                        <Image Source="https://images.complex.com/complex/images/c_crop,h_1078,w_1916,x_1,y_2/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/xphor8nvrykbbynwxexp/streetwear-sales-covid-19" Aspect="AspectFill"></Image>
+                    </Grid>
+                </Frame>
+                <StackLayout>
+                    <Label Text="STREET WEAR COLLECTION!" TextColor="#E84A5F"
+                           FontSize="25"
+                           FontAttributes="Bold"
+                           Margin="10"
+                           VerticalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Margin="15,0,0,0">
+                    <Label Text="Check out our hottest and newest collection!" TextColor="Black"
+                           FontSize="16"
+                           FontAttributes="Italic"></Label>
+
+                    <Label Text="ASPECT is giving you the most fashionista and iconic street wear..." TextColor="Black"
+                           FontSize="12"
+                           FontAttributes="Italic"></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout>
+                <Frame Padding="0"
+               HasShadow="True"
+               CornerRadius="5"
+               Margin="2"
+               VerticalOptions="FillAndExpand">
+                    <Grid>
+                        <Image Source="https://pyxis.nymag.com/v1/imgs/9be/0a9/2d1e70fa5dbe9b2d6b489172b87d2cab92-11-denim.jpg" Aspect="AspectFill"></Image>
+                    </Grid>
+                </Frame>
+                <StackLayout>
+                    <Label Text="SHOW YOUR DENIM STYLE" TextColor="#E84A5F"
+                           FontSize="25"
+                           FontAttributes="Bold"
+                           Margin="10"
+                           VerticalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Margin="15,0,0,0">
+                    <Label Text="Denim is never go out of style" TextColor="Black"
+                           FontSize="16"
+                           FontAttributes="Italic"></Label>
+
+                    <Label Text="Check out for more products and give us the style you never had..." TextColor="Black"
+                           FontSize="12"
+                           FontAttributes="Italic"></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <Grid>
+                <StackLayout>
+                    <Frame Padding="0"
+                   HasShadow="True"
+                   CornerRadius="5"
+                   Margin="10"
+                   HeightRequest="280" WidthRequest="180"
+                   HorizontalOptions="StartAndExpand">
+                        <Grid>
+                            <Image Source="https://d33stn4s1ezeve.cloudfront.net/i/d1/HXxSs4vP_fgr0SW.jpeg" Aspect="AspectFill"></Image>
+                            <StackLayout>
+                                <Label Text="Polo Shirt" TextColor="White"
+                           FontSize="18"
+                           FontAttributes="None"
+                           Margin="10"
+                           VerticalOptions="End"></Label>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="PHP 600.00" TextColor="White"
+                           FontSize="16"
+                           FontAttributes="None"
+                           Margin="10"
+                           VerticalOptions="EndAndExpand"
+                           ></Label>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout>
+                    <Frame Padding="0"
+                   HasShadow="True"
+                   CornerRadius="5"
+                   Margin="10"
+                   HeightRequest="280" WidthRequest="180"
+                   HorizontalOptions="EndAndExpand">
+                        <Grid>
+                            <Image Source="https://thumbs.dreamstime.com/b/fashion-model-fit-body-pose-sweater-jeans-sunny-day-natural-landscape-wanderlust-lifestyle-travelling-concept-150639866.jpg" Aspect="AspectFill"></Image>
+                            <StackLayout>
+                                <Label Text="Turtle Neck" TextColor="White"
+                           FontSize="18"
+                           FontAttributes="None"
+                           Margin="10"
+                           VerticalOptions="End"></Label>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="PHP 499.00" TextColor="White"
+                           FontSize="16"
+                           FontAttributes="None"
+                           Margin="10"
+                           VerticalOptions="EndAndExpand"
+                           ></Label>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </Grid>
+</ContentPage>

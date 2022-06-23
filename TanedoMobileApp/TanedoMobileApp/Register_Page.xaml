@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TanedoMobileApp.Register_Page"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+    <Grid>
+        <StackLayout Margin="20,80,20,20">
+            <Label Text="Register"
+                   FontSize="35"
+                   TextColor="#FF847C"
+                   FontAttributes="Bold"
+                   />
+            <StackLayout Margin="20,90,20,20">
+                <Label Text="Enter Username"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   />
+
+                <Entry  Placeholder="Ex. Abc_123"
+                    TextColor="Black"
+                    MaxLength="15"></Entry>
+
+                <Label Text="Enter Password"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   />
+                <Entry  Placeholder="Password"
+                    TextColor="Black"
+                    MaxLength="15"
+                    IsPassword="True"></Entry>
+            </StackLayout>
+            <StackLayout Margin="20,30 ,20,20">
+                <Button Text="Register" 
+                            BackgroundColor="#E84A5F" 
+                            TextColor="White" 
+                            CornerRadius="25" 
+                            FontAttributes="Bold"
+                            Clicked="Button_SignUp"></Button>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

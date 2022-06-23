@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TanedoMobileApp.Login_Page"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+
+    <Grid>
+
+        <RelativeLayout>
+            <Image Source="https://i.pinimg.com/originals/3d/6a/27/3d6a2700c75a7c87c8f78d10f8c2a95d.jpg"
+                   Aspect="AspectFit"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   ></Image>
+        </RelativeLayout>
+
+        <BoxView>
+            <BoxView.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="Transparent" Offset="0"></GradientStop>
+                    <GradientStop Color="#2A363B" Offset="0.9"></GradientStop>
+                    <GradientStop Color="#2A363B" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+
+        <StackLayout Margin="20,510,20,20">
+            <Label Text="Username:"
+                   FontSize="Small"
+                   TextColor="#FF847C"
+                   />
+            <Entry  Placeholder="Enter username"
+                    TextColor="#FECEA8"
+                    FontSize="Medium"
+                    MaxLength="15"></Entry>
+
+            <Label Text="Password:"
+                   FontSize="Small"
+                   TextColor="#FF847C"
+                   />
+
+            <Entry  Placeholder="Enter Password"
+                    TextColor="#FECEA8"
+                    StyleClass="Center"
+                    FontSize="Medium"
+                    MaxLength="15"
+                    
+                    IsPassword="True"></Entry>
+        </StackLayout>
+
+        <StackLayout Margin="20,650,20,20">
+            <Button Text="Log In" 
+                    BackgroundColor="#E84A5F" 
+                    TextColor="White" 
+                    CornerRadius="25" 
+                    FontAttributes="Bold"
+                    Clicked="Button_Login"></Button>
+            <StackLayout Margin="130,0,20,20">
+                <Label Text="Forgot Password?"
+                   FontSize="Small"
+                   TextColor="#FF847C"
+                   ></Label>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>
